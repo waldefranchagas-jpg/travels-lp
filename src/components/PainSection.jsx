@@ -5,10 +5,10 @@ import { useState } from 'react'
 const cards = [
   {
     icon: DollarSign,
-    title: 'Taxas Abusivas',
-    text: 'Cansado de pagar taxas de emissão e reserva que encarecem cada bilhete?',
+    title: 'Custos que só sobem',
+    text: 'Taxas de emissão, markups escondidos e reembolsos sem controle encarecendo cada viagem da sua empresa.',
     stat: 'R$ 87',
-    statLabel: 'taxa média por emissão',
+    statLabel: 'taxa média por emissão no mercado',
     color: 'from-red-500/20 to-transparent',
     borderHover: 'hover:border-red-400/40',
     iconBg: 'bg-red-500/10',
@@ -16,10 +16,10 @@ const cards = [
   },
   {
     icon: FileWarning,
-    title: 'Caos Financeiro',
-    text: 'Chega de buscar Notas Fiscais e comprovantes espalhados em dezenas de e-mails.',
+    title: 'Informação espalhada',
+    text: 'Faturas num e-mail, NFs em outro, aprovações no WhatsApp. Sem centralização, o caos custa caro.',
     stat: '23h',
-    statLabel: 'perdidas por mês em burocracia',
+    statLabel: 'perdidas por mês sem centralização',
     color: 'from-orange-500/20 to-transparent',
     borderHover: 'hover:border-orange-400/40',
     iconBg: 'bg-orange-500/10',
@@ -27,10 +27,10 @@ const cards = [
   },
   {
     icon: Eye,
-    title: 'Falta de Visibilidade',
-    text: 'Você sabe exatamente quanto gastou com viagens este mês? E qual sua rota mais cara?',
+    title: 'Custos Invisíveis',
+    text: 'No-shows, bilhetes não voados, multas de remarcação, gastos que ninguém rastreia e que corroem seu orçamento.',
     stat: '68%',
-    statLabel: 'das empresas não rastreiam gastos',
+    statLabel: 'das empresas não enxergam esses custos',
     color: 'from-yellow-500/20 to-transparent',
     borderHover: 'hover:border-yellow-400/40',
     iconBg: 'bg-yellow-500/10',
@@ -66,8 +66,8 @@ export default function PainSection() {
           </motion.div>
 
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight">
-            Chega de perder dinheiro com a{' '}
-            <span className="text-brand-yellow">burocracia das viagens.</span>
+            Sua empresa perde dinheiro com{' '}
+            <span className="text-brand-yellow">custos que nem enxerga.</span>
           </h2>
         </motion.div>
 
@@ -78,7 +78,7 @@ export default function PainSection() {
           transition={{ delay: 0.2 }}
           className="text-brand-gray text-center text-lg mb-16 max-w-2xl mx-auto"
         >
-          Sua empresa enfrenta esses desafios diariamente, e cada um deles impacta direto no resultado.
+          Esses problemas acontecem todos os dias e pesam direto no resultado, mesmo quando ninguém percebe.
         </motion.p>
 
         <div className="grid md:grid-cols-3 gap-6">

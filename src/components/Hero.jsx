@@ -20,13 +20,13 @@ export default function Hero() {
               Plataforma para empresas que viajam a negócios
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-[1.1] mb-6">
-              Gestão de Viagens com{' '}
-              <span className="text-brand-yellow">taxa zero</span> e{' '}
-              <span className="text-brand-yellow">controle total</span>
+              Reduza custos,{' '}
+              <span className="text-brand-yellow">centralize tudo</span> e elimine{' '}
+              <span className="text-brand-yellow">gastos invisíveis</span>
             </h1>
             <p className="text-brand-gray text-lg leading-relaxed mb-10 max-w-lg">
-              Centralize passagens aéreas e rodoviárias, elimine taxas ocultas
-              e recupere o controle financeiro da sua empresa em uma única plataforma.
+              Uma única plataforma para gerenciar viagens corporativas, enxergar
+              cada centavo gasto e cortar os custos que sua empresa nem sabe que paga.
             </p>
             <div className="flex flex-wrap gap-4">
               <a
@@ -46,18 +46,18 @@ export default function Hero() {
             </div>
             <div className="flex gap-10 mt-12">
               <div>
-                <p className="text-2xl lg:text-3xl font-bold text-brand-yellow">R$ 0</p>
-                <p className="text-brand-gray text-sm mt-1">Taxa de emissão</p>
-              </div>
-              <div className="w-px bg-white/10" />
-              <div>
-                <p className="text-2xl lg:text-3xl font-bold text-brand-yellow">+200</p>
-                <p className="text-brand-gray text-sm mt-1">Empresas atendidas</p>
-              </div>
-              <div className="w-px bg-white/10" />
-              <div>
                 <p className="text-2xl lg:text-3xl font-bold text-brand-yellow">35%</p>
-                <p className="text-brand-gray text-sm mt-1">Economia média</p>
+                <p className="text-brand-gray text-sm mt-1">Redução média de custos</p>
+              </div>
+              <div className="w-px bg-white/10" />
+              <div>
+                <p className="text-2xl lg:text-3xl font-bold text-brand-yellow">1 lugar</p>
+                <p className="text-brand-gray text-sm mt-1">Tudo centralizado</p>
+              </div>
+              <div className="w-px bg-white/10" />
+              <div>
+                <p className="text-2xl lg:text-3xl font-bold text-brand-yellow">100%</p>
+                <p className="text-brand-gray text-sm mt-1">Visibilidade dos gastos</p>
               </div>
             </div>
           </motion.div>

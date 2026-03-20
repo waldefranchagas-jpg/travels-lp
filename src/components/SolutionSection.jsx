@@ -6,24 +6,24 @@ const features = [
   {
     icon: Search,
     tag: 'Self-booking',
-    title: 'Busque e reserve em segundos',
-    text: 'Busque e reserve aéreo e rodoviário em segundos. Emissão instantânea e voucher direto no e-mail do colaborador.',
-    highlights: ['Cotação multi-fornecedor', 'Emissão instantânea', 'Voucher automático por e-mail'],
+    title: 'Compre pelo menor preço, sempre',
+    text: 'Compare aéreo e rodoviário de múltiplos fornecedores em uma única busca. Sem intermediários, sem markups escondidos, sua empresa paga menos em cada viagem.',
+    highlights: ['Cotação multi-fornecedor', 'Menor preço garantido', 'Emissão instantânea'],
     mockup: 'search',
   },
   {
     icon: BarChart3,
-    tag: 'Dashboard Inteligente',
-    title: 'Visão total dos seus gastos',
-    text: 'Visualize seus gastos por mês, trimestre ou ano. Identifique o Top 5 de destinos e visualize sua operação através do nosso Mapa de Calor.',
-    highlights: ['Relatórios por período', 'Top 5 destinos', 'Mapa de Calor operacional'],
+    tag: 'Custos Invisíveis',
+    title: 'Enxergue cada centavo gasto',
+    text: 'No-shows, bilhetes não voados, multas de remarcação, tudo visível no dashboard. Identifique os custos invisíveis que corroem seu orçamento e tome ação.',
+    highlights: ['Rastreio de custos ocultos', 'Top 5 destinos mais caros', 'Mapa de Calor operacional'],
     mockup: 'dashboard',
   },
   {
     icon: ShieldCheck,
-    tag: 'Gestão e Governança',
-    title: 'Controle centralizado',
-    text: 'Configure fluxos de aprovação, centros de custo e tenha todas as NFs e faturas centralizadas em um só lugar.',
+    tag: 'Centralização Total',
+    title: 'Tudo num lugar só',
+    text: 'Aprovações, faturas, NFs, centros de custo e relatórios, tudo centralizado em uma plataforma. Acabe com a informação espalhada entre e-mails e planilhas.',
     highlights: ['Fluxos de aprovação', 'Centros de custo', 'NFs e faturas centralizadas'],
     mockup: 'governance',
   },
@@ -166,8 +166,8 @@ export default function SolutionSection() {
             Funcionalidades
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight">
-            Tudo o que você precisa para{' '}
-            <span className="text-brand-yellow">gerir, economizar e escalar.</span>
+            Funcionalidades que{' '}
+            <span className="text-brand-yellow">reduzem seus custos na prática.</span>
           </h2>
         </motion.div>
 

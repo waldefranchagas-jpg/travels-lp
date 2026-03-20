@@ -94,7 +94,7 @@ export default function Pricing() {
               Planos
             </p>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight">
-              Planos mensais sem surpresas para sua operação.
+              Planos que reduzem custos, sem surpresas na fatura.
             </h2>
           </motion.div>
           <motion.p
@@ -104,7 +104,7 @@ export default function Pricing() {
             transition={{ delay: 0.1 }}
             className="text-brand-gray text-lg leading-relaxed lg:text-right"
           >
-            Previsibilidade nos custos que acompanha as soluções que a sua empresa precisa.
+            Previsibilidade total: você sabe exatamente quanto vai gastar, sem custos invisíveis.
           </motion.p>
         </div>
 

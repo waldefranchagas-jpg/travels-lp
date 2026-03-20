@@ -16,11 +16,11 @@ export default function Contact() {
               Fale com nosso time comercial
             </p>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight mb-6">
-              Agende uma demonstração e conheça a plataforma por dentro.
+              Descubra quanto sua empresa perde com custos invisíveis.
             </h2>
             <p className="text-brand-gray text-lg leading-relaxed mb-10">
-              Nosso time de especialistas apresenta a solução, entende sua operação
-              e propõe o melhor plano para o estágio atual do seu negócio.
+              Nosso time analisa sua operação, mostra onde estão os gastos que você não enxerga
+              e apresenta como centralizar tudo para reduzir custos desde o primeiro mês.
             </p>
 
             <div className="grid grid-cols-2 gap-6">

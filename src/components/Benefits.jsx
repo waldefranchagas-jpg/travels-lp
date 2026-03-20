@@ -4,21 +4,21 @@ import { Award, Eye, TrendingUp } from 'lucide-react'
 const benefits = [
   {
     icon: Award,
-    title: 'Posicionamento premium',
+    title: 'Redução real de custos',
     description:
-      'Sua agência se posiciona como referência em tecnologia e inovação, transmitindo confiança a prospects e clientes corporativos.',
+      'Elimine taxas de emissão, compare fornecedores automaticamente e garanta sempre o menor preço. Economia comprovada em cada viagem.',
   },
   {
     icon: Eye,
-    title: 'Transparência na proposta',
+    title: 'Visibilidade total dos gastos',
     description:
-      'O cliente corporativo visualiza condições claras, economia comprovada e regras comerciais objetivas — sem ruído na negociação.',
+      'Enxergue custos invisíveis como no-shows, bilhetes não voados e multas de remarcação. O que você não mede, você não controla.',
   },
   {
     icon: TrendingUp,
-    title: 'Maior taxa de conversão',
+    title: 'Gestão centralizada',
     description:
-      'Provas de economia e comparativos de preço fortalecem sua proposta comercial, reduzindo o ciclo de venda B2B.',
+      'Aprovações, faturas, NFs e relatórios num lugar só. Sem informação espalhada, sem retrabalho, sem surpresas no fechamento.',
   },
 ]
 
@@ -45,7 +45,7 @@ export default function Benefits() {
             Benefícios estratégicos
           </p>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight max-w-3xl">
-            Vantagens competitivas que aceleram o crescimento da sua operação.
+            Menos custos, mais controle, tudo num único lugar.
           </h2>
         </motion.div>
 

@@ -23,22 +23,22 @@ const features = [
   {
     title: 'Busca multi-fornecedor',
     description:
-      'Consolide inventário de múltiplas fontes em uma única consulta. Sua equipe comercial compara opções sem alternar entre sistemas.',
+      'Compare preços de múltiplos fornecedores em uma única busca. Garanta o menor custo sem perder tempo alternando entre sistemas.',
   },
   {
-    title: 'Gestão de parceiros',
+    title: 'Controle de custos invisíveis',
     description:
-      'Cadastre fornecedores com regras comerciais individuais: custo-base, margem, disponibilidade e SLA operacional.',
+      'Rastreie no-shows, bilhetes não voados e multas de remarcação. Transforme gastos que passavam despercebidos em economia real.',
   },
   {
     title: 'Precificação transparente',
     description:
-      'Conversão automática de milhas para reais com margem configurável. Seu time negocia com dados, não com suposições.',
+      'Sem taxas escondidas ou surpresas na fatura. Cada custo é visível, comparável e justificável para o financeiro.',
   },
   {
-    title: 'Comparativo de competitividade',
+    title: 'Centralização completa',
     description:
-      'Demonstre ao cliente corporativo a economia real frente à tarifa publicada, fortalecendo a proposta comercial da sua agência.',
+      'NFs, faturas, aprovações e relatórios, tudo acessível num único lugar. Acabe com a informação espalhada entre e-mails e planilhas.',
   },
 ]
 
@@ -85,11 +85,11 @@ export default function Solution() {
             Solução central
           </p>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight max-w-3xl mb-6">
-            Infraestrutura de grande operação acessível para sua agência.
+            Centralize sua operação e reduza custos desde o primeiro mês.
           </h2>
           <p className="text-brand-gray text-lg max-w-2xl leading-relaxed">
-            Centralize cotação, fornecedores e controle financeiro em uma plataforma
-            pensada para quem precisa operar com velocidade e governança comercial.
+            Cotação, fornecedores, aprovações e controle financeiro, tudo num lugar só.
+            Elimine custos invisíveis e tenha previsibilidade real nos gastos com viagens.
           </p>
         </motion.div>
 

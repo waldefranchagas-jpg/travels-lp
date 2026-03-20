@@ -28,9 +28,9 @@ export default function ConciergeSection() {
           </h2>
 
           <p className="text-brand-gray text-lg leading-relaxed max-w-3xl mx-auto">
-            Para desafios maiores, nossa equipe de Concierge assume o controle.
-            Planejamento de logísticas complexas para eventos de negócio e consultoria
-            especializada para deslocamentos nacionais e internacionais.
+            Para logísticas complexas, nossa equipe de Concierge assume o controle.
+            Planejamento de eventos, deslocamentos nacionais e internacionais, sempre
+            buscando a melhor relação custo-benefício e eliminando gastos desnecessários.
             No plano Business, você nunca está sozinho.
           </p>
         </motion.div>
