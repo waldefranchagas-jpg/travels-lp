@@ -19,15 +19,19 @@ export default function Hero() {
             <span className="inline-block text-brand-yellow text-sm font-semibold tracking-widest uppercase mb-6">
               Plataforma para empresas que viajam a negócios
             </span>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-[1.1] mb-6">
+
+            {/* Hero image placeholder */}
+            <div className="w-full aspect-[16/9] bg-brand-card border border-brand-border rounded-2xl mb-8 flex items-center justify-center overflow-hidden">
+              {/* TODO: substituir pelo print do SaaS ou imagem do produto */}
+              <div className="text-brand-gray text-sm">Imagem do produto</div>
+            </div>
+
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white leading-[1.1] mb-8">
               Reduza custos,{' '}
               <span className="text-brand-yellow">centralize tudo</span> e elimine{' '}
               <span className="text-brand-yellow">gastos invisíveis</span>
-            </h1>
-            <p className="text-brand-gray text-lg leading-relaxed mb-10 max-w-lg">
-              Uma única plataforma para gerenciar viagens corporativas, enxergar
-              cada centavo gasto e cortar os custos que sua empresa nem sabe que paga.
-            </p>
+            </h2>
+
             <div className="flex flex-wrap gap-4">
               <a
                 href="#contato"
@@ -46,18 +50,18 @@ export default function Hero() {
             </div>
             <div className="flex gap-10 mt-12">
               <div>
-                <p className="text-2xl lg:text-3xl font-bold text-brand-yellow">35%</p>
+                <p className="text-2xl lg:text-3xl font-bold text-brand-yellow">20%</p>
                 <p className="text-brand-gray text-sm mt-1">Redução média de custos</p>
               </div>
               <div className="w-px bg-white/10" />
               <div>
-                <p className="text-2xl lg:text-3xl font-bold text-brand-yellow">1 lugar</p>
-                <p className="text-brand-gray text-sm mt-1">Tudo centralizado</p>
+                <p className="text-2xl lg:text-3xl font-bold text-brand-yellow">One-stop-shop</p>
+                <p className="text-brand-gray text-sm mt-1">Tudo em um só lugar</p>
               </div>
               <div className="w-px bg-white/10" />
               <div>
-                <p className="text-2xl lg:text-3xl font-bold text-brand-yellow">100%</p>
-                <p className="text-brand-gray text-sm mt-1">Visibilidade dos gastos</p>
+                <p className="text-2xl lg:text-3xl font-bold text-brand-yellow">Dashboards</p>
+                <p className="text-brand-gray text-sm mt-1">Controle de gastos invisíveis</p>
               </div>
             </div>
           </motion.div>
@@ -92,6 +96,14 @@ export default function Hero() {
                 <input
                   type="email"
                   placeholder="voce@suaempresa.com.br"
+                  className="w-full bg-brand-dark border border-brand-border rounded-lg px-4 py-3 text-white placeholder:text-white/30 focus:outline-none focus:border-brand-yellow/50 transition-colors"
+                />
+              </div>
+              <div>
+                <label className="block text-brand-gray text-sm mb-2">Celular / WhatsApp</label>
+                <input
+                  type="tel"
+                  placeholder="(11) 99999-9999"
                   className="w-full bg-brand-dark border border-brand-border rounded-lg px-4 py-3 text-white placeholder:text-white/30 focus:outline-none focus:border-brand-yellow/50 transition-colors"
                 />
               </div>

@@ -7,13 +7,13 @@ const features = [
     icon: Search,
     tag: 'Self-booking',
     title: 'Compre pelo menor preço, sempre',
-    text: 'Compare aéreo e rodoviário de múltiplos fornecedores em uma única busca. Sem intermediários, sem markups escondidos, sua empresa paga menos em cada viagem.',
+    text: 'Compare aéreo e rodoviário de múltiplos fornecedores em uma única plataforma. Sem intermediários, sem markups escondidos, sua empresa paga menos em cada viagem.',
     highlights: ['Cotação multi-fornecedor', 'Menor preço garantido', 'Emissão instantânea'],
     mockup: 'search',
   },
   {
     icon: BarChart3,
-    tag: 'Custos Invisíveis',
+    tag: 'Insights Valiosos',
     title: 'Enxergue cada centavo gasto',
     text: 'No-shows, bilhetes não voados, multas de remarcação, tudo visível no dashboard. Identifique os custos invisíveis que corroem seu orçamento e tome ação.',
     highlights: ['Rastreio de custos ocultos', 'Top 5 destinos mais caros', 'Mapa de Calor operacional'],
@@ -40,7 +40,8 @@ function SearchMockup() {
         <span className="text-brand-gray text-xs ml-auto">12 Mar</span>
       </div>
       {[
-        { cia: 'LATAM', preco: 'R$ 489', tag: 'Melhor preço' },
+        { cia: 'Travels & CIA', preco: 'R$ 439', tag: 'Melhor preço' },
+        { cia: 'LATAM', preco: 'R$ 489', tag: null },
         { cia: 'GOL', preco: 'R$ 512', tag: null },
         { cia: 'Azul', preco: 'R$ 537', tag: null },
       ].map((v, i) => (

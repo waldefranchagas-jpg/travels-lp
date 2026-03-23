@@ -6,9 +6,9 @@ const cards = [
   {
     icon: DollarSign,
     title: 'Custos que só sobem',
-    text: 'Taxas de emissão, markups escondidos e reembolsos sem controle encarecendo cada viagem da sua empresa.',
-    stat: 'R$ 87',
-    statLabel: 'taxa média por emissão no mercado',
+    text: 'Taxas altas por bilhete, markups escondidos, reembolsos sem controle, créditos não usados…',
+    stat: null,
+    statLabel: null,
     color: 'from-red-500/20 to-transparent',
     borderHover: 'hover:border-red-400/40',
     iconBg: 'bg-red-500/10',
@@ -18,7 +18,7 @@ const cards = [
     icon: FileWarning,
     title: 'Informação espalhada',
     text: 'Faturas num e-mail, NFs em outro, aprovações no WhatsApp. Sem centralização, o caos custa caro.',
-    stat: '23h',
+    stat: '40h',
     statLabel: 'perdidas por mês sem centralização',
     color: 'from-orange-500/20 to-transparent',
     borderHover: 'hover:border-orange-400/40',
@@ -29,8 +29,8 @@ const cards = [
     icon: Eye,
     title: 'Custos Invisíveis',
     text: 'No-shows, bilhetes não voados, multas de remarcação, gastos que ninguém rastreia e que corroem seu orçamento.',
-    stat: '68%',
-    statLabel: 'das empresas não enxergam esses custos',
+    stat: '90%',
+    statLabel: 'das PMEs não enxergam esses custos',
     color: 'from-yellow-500/20 to-transparent',
     borderHover: 'hover:border-yellow-400/40',
     iconBg: 'bg-yellow-500/10',
@@ -117,18 +117,20 @@ export default function PainSection() {
                 <p className="text-brand-gray leading-relaxed mb-6">{card.text}</p>
 
                 {/* Stat highlight */}
-                <div className="border-t border-brand-border pt-5">
-                  <motion.p
-                    className={`text-3xl font-bold ${card.iconColor} mb-1`}
-                    initial={{ opacity: 0 }}
-                    whileInView={{ opacity: 1 }}
-                    viewport={{ once: true }}
-                    transition={{ delay: 0.4 + i * 0.15 }}
-                  >
-                    {card.stat}
-                  </motion.p>
-                  <p className="text-brand-gray text-sm">{card.statLabel}</p>
-                </div>
+                {card.stat && (
+                  <div className="border-t border-brand-border pt-5">
+                    <motion.p
+                      className={`text-3xl font-bold ${card.iconColor} mb-1`}
+                      initial={{ opacity: 0 }}
+                      whileInView={{ opacity: 1 }}
+                      viewport={{ once: true }}
+                      transition={{ delay: 0.4 + i * 0.15 }}
+                    >
+                      {card.stat}
+                    </motion.p>
+                    <p className="text-brand-gray text-sm">{card.statLabel}</p>
+                  </div>
+                )}
               </div>
             </motion.div>
           ))}

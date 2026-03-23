@@ -53,11 +53,11 @@ export default function SearchDemo() {
               <div className="space-y-3">
                 <div className="flex justify-between items-center">
                   <span className="text-brand-gray text-sm">Tarifa direta cia aérea</span>
-                  <span className="text-white font-semibold">R$ 4.870,00</span>
+                  <span className="text-white font-semibold whitespace-nowrap">R$ 4.870,00</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-brand-gray text-sm">Via Travels & CIA</span>
-                  <span className="text-brand-yellow font-semibold">R$ 3.190,00</span>
+                  <span className="text-brand-yellow font-semibold whitespace-nowrap">R$ 3.190,00</span>
                 </div>
               </div>
             </div>
@@ -70,25 +70,19 @@ export default function SearchDemo() {
         </motion.div>
 
         {/* Stats */}
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 gap-6">
           {[
             {
-              label: 'Melhor tarifa consolidada',
-              value: 'R$ 1.289,90',
-              sub: 'Redução de 23% frente à cia aérea',
+              label: 'Redução de tarifas',
+              value: '20%',
+              sub: 'Redução média frente à cia aérea',
               icon: TrendingDown,
             },
             {
               label: 'Fornecedores integrados',
-              value: '+18',
-              sub: 'Milhas, consolidadores e aéreo direto',
+              value: 'Dezenas',
+              sub: 'Milhas, consolidadoras e aéreo direto, em crescimento',
               icon: Users,
-            },
-            {
-              label: 'Fontes de inventário',
-              value: '4 fontes',
-              sub: 'Mobile, Milhas, Consolidadores, Tarifa direta',
-              icon: Smartphone,
             },
           ].map((stat, i) => (
             <motion.div
@@ -111,10 +105,12 @@ export default function SearchDemo() {
         {/* Source tags */}
         <div className="flex flex-wrap gap-3 mt-8 justify-center">
           {[
-            { label: 'API Mobile', icon: Smartphone },
+            { label: 'API ERP', icon: Smartphone },
             { label: 'Milhas', icon: Coins },
-            { label: 'Consolidadores', icon: Building2 },
-            { label: 'Tarifa direta', icon: TicketCheck },
+            { label: 'Consolidadoras', icon: Building2 },
+            { label: 'Tarifa Direta', icon: TicketCheck },
+            { label: 'Centro de Custos', icon: TrendingDown },
+            { label: 'Dashboards dinâmicos', icon: Users },
           ].map(({ label, icon: Icon }) => (
             <span
               key={label}
